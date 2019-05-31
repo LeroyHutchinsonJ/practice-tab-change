@@ -3,13 +3,15 @@ import ReactDOM from "react-dom";
 import PageOne from "./PageOne";
 import "./styles.css";
 
-function App() {
-  return (
-    <div className="App">
-      <PageOne />
-      Testing Testing
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <PageOne />
+        Testing Testing
+      </div>
+    );
+  }
 }
 
 const rootElement = document.getElementById("root");
