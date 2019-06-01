@@ -1,0 +1,21 @@
+.navBar {
+  width: 10%;
+  position: fixed;
+  height: 100%;
+  list-style-type: none;
+  padding: 5px;
+  border: 1px solid black;
+  text-align: center;
+}
+.pageOne:hover {
+  background-color: #2ecc71;
+  color: white;
+  padding: 2px;
+  cursor: pointer;
+}
+.pageTwo:hover {
+  background-color: #2ecc71;
+  color: white;
+  padding: 2px;
+  cursor: pointer;
+}
